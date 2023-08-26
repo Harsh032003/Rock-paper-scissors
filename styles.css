@@ -1,19 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
+
 body {
-  /* padding: 10px; */
   margin: 0px;
   background-color: #222831;
 }
 .upper {
   background-color: black;
   padding-bottom: 30px;
+  margin-top: -45px;
+  border-bottom: 6px double #a8b2a7;
+  padding-top: 30px;
 }
 
 .h1 {
   color: white;
   text-align: center;
-  font-size: 40px;
-  font-family: cursive;
+  font-size: 35px;
+  font-family: "Lacquer", cursive;
   padding: 10px;
+}
+.heading {
+  font-size: 55px;
+  margin-bottom: -15px;
 }
 
 .image {
@@ -22,13 +30,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  border: 5px solid salmon;
+  border: 5px solid #a8b2a7;
 }
 
 .p1,
 .p2 {
   color: white;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Lacquer", cursive;
   text-align: center;
   font-size: 30px;
 }
@@ -42,7 +50,7 @@ body {
   font-size: 80px;
   color: white;
   padding: 30px;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .score {
@@ -54,8 +62,8 @@ body {
   font-size: 40px;
   color: white;
   padding: 30px;
-  margin-top: -60px;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: -120px;
+  font-family: "Lacquer", cursive;
 }
 
 .classButton {
@@ -66,7 +74,7 @@ body {
 .button {
   font-size: 90px;
   cursor: pointer;
-  border: 8px solid salmon;
+  border: 5px solid #a19b6ec7;
   border-radius: 10px;
   padding-bottom: 30px;
 }
@@ -76,4 +84,5 @@ body {
   text-align: center;
   color: white;
   margin-top: 40px;
+  font-family: sans-serif;
 }
