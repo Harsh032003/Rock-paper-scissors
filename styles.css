@@ -74,9 +74,21 @@ body {
 .button {
   font-size: 90px;
   cursor: pointer;
-  border: 5px solid #a19b6ec7;
+  border: 3px solid black;
   border-radius: 10px;
   padding-bottom: 30px;
+}
+
+#rock:hover {
+  border: 4px solid yellow;
+}
+
+#paper:hover {
+  border: 4px solid yellow;
+}
+
+#scissors:hover {
+  border: 4px solid yellow;
 }
 
 .bottom {
